@@ -1,6 +1,1 @@
-# Dependency directory
 node_modules
-
-### Compiled JS ###
-*.js.map
-*.min.js
