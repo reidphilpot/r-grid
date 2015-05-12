@@ -1,0 +1,19 @@
+.r-grid {
+  height: 300px;
+  overflow: auto;
+  border: 1px solid #ccc;
+}
+
+.r-grid .row {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.r-grid .row .cell {
+  display: inline-block;
+  padding: 5px 5px 0;
+  border-right: 1px solid #f1f1f1;
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
