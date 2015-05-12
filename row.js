@@ -5,7 +5,7 @@ define(
 	, function (d3, _) {
 
 		var value = _.property('value')
-			, width = _.property('width')
+		, width = _.property('width')
 
 		return function rowFactory() {
 
@@ -28,7 +28,7 @@ define(
 
 				cells.enter().append('div').classed('cell', true)
 				cells.exit().remove()
-				
+
 				cells
 					.text(value)  
 					.style('width', width)
