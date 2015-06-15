@@ -39,8 +39,8 @@ define(
           scroll(this.scrollTop)
         })
 
-        function render (scrollTop) {
-          target.each(function () {
+        function render(scrollTop) {
+          target.each(function() {
             this.scrollTop = scrollTop
 
             var from = Math.max(0, Math.min(length - rows, position))

@@ -13,8 +13,7 @@
     "try",
     "catch",
     "typeof",
-    "void",
-    "function"
+    "void"
   ],
   "disallowNewlineBeforeBlockStatements": true,
   "disallowOperatorBeforeLineBreak": ["+", "."],

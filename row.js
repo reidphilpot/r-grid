@@ -15,7 +15,7 @@ define(
         s.each(rowEach)
       }
 
-      row.columns = function (v) {
+      row.columns = function(v) {
         if (!arguments.length) return columns
         columns = v
         return row
